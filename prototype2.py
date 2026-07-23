@@ -34,8 +34,8 @@ if not GROQ_API_KEY:
 # FILE PATHS
 # ============================================================
 
-PRODUCT_PDF_PATH = "data/vaultify_product_manual.pdf"
-LOGS_CSV_PATH = "data/logs.csv"
+PRODUCT_PDF_PATH = "vaultify_product_manual.pdf"
+LOGS_CSV_PATH = "logs.csv"
 
 # ============================================================
 # LLM
