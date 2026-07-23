@@ -55,7 +55,7 @@ embeddings = HuggingFaceEmbeddings(
 )
 
 # Initialize Cross-Encoder model for reranking candidates
-cross_encoder = HuggingFaceCrossEncoder(model_name="BAAI/bge-reranker-base")
+cross_encoder = HuggingFaceCrossEncoder(model_name="cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 
 # ============================================================
