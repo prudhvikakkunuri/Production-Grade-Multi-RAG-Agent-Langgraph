@@ -12,5 +12,4 @@ faiss-cpu
 pypdf
 pymupdf
 streamlit
---extra-index-url https://download.pytorch.org/whl/cpu
-torch
+torch --extra-index-url https://download.pytorch.org/whl/cpu
